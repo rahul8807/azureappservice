@@ -32,7 +32,7 @@ jobs:
         with:
           name: java-app
           run: echo ${{ github.workspace }}
-          path: '${{ github.workspace }}/libs/appservice-0.0.1-SNAPSHOT.jar'
+          path: '${{ github.workspace }}/build/libs/appservice-0.0.1-SNAPSHOT.jar'
 
   deploy:
     runs-on: ubuntu-latest
